@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "image": "https://www.w3schools.com/w3images/lights.jpg",
+    "comments": 12,
+    "likes": 150,
+    "caption": "Exploring the beauty of nature!",
+    "date": "2024-12-15"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "image": "https://www.w3schools.com/w3images/fjords.jpg",
+    "comments": 20,
+    "likes": 245,
+    "caption": "Amazing food at this new cafe!",
+    "date": "2024-12-14"
+  },
+  {
+    "id": 3,
+    "name": "Mike Johnson",
+    "image": "https://www.w3schools.com/w3images/mountains.jpg",
+    "comments": 5,
+    "likes": 89,
+    "caption": "A day at the beach 🏖️",
+    "date": "2024-12-13"
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "image": "https://www.w3schools.com/w3images/snow.jpg",
+    "comments": 18,
+    "likes": 310,
+    "caption": "Happy moments with loved ones ❤️",
+    "date": "2024-12-12"
+  },
+  {
+    "id": 5,
+    "name": "Chris Brown",
+    "image": "https://www.w3schools.com/w3images/forest.jpg",
+    "comments": 25,
+    "likes": 400,
+    "caption": "Sunset vibes 🌅",
+    "date": "2024-12-11"
+  },
+  {
+    "id": 6,
+    "name": "Sophia Wilson",
+    "image": "https://www.w3schools.com/w3images/coffee.jpg",
+    "comments": 8,
+    "likes": 130,
+    "caption": "Morning coffee with a view ☕",
+    "date": "2024-12-10"
+  },
+  {
+    "id": 7,
+    "name": "Liam Carter",
+    "image": "https://www.w3schools.com/w3images/hiking.jpg",
+    "comments": 10,
+    "likes": 200,
+    "caption": "An adventurous hike in the mountains!",
+    "date": "2024-12-09"
+  },
+  {
+    "id": 8,
+    "name": "Olivia Taylor",
+    "image": "https://www.w3schools.com/w3images/reading.jpg",
+    "comments": 15,
+    "likes": 185,
+    "caption": "Reading my favorite book 📚",
+    "date": "2024-12-08"
+  },
+  {
+    "id": 9,
+    "name": "Noah Harris",
+    "image": "https://www.w3schools.com/w3images/concert.jpg",
+    "comments": 30,
+    "likes": 450,
+    "caption": "Concert night with friends 🎶",
+    "date": "2024-12-07"
+  },
+  {
+    "id": 10,
+    "name": "Ava Martin",
+    "image": "https://www.w3schools.com/w3images/fireplace.jpg",
+    "comments": 3,
+    "likes": 78,
+    "caption": "Chilling by the fireplace 🔥",
+    "date": "2024-12-06"
+  },
+  {
+    "id": 11,
+    "name": "William Clark",
+    "image": "https://www.w3schools.com/w3images/car.jpg",
+    "comments": 21,
+    "likes": 310,
+    "caption": "My new car is finally here 🚗",
+    "date": "2024-12-05"
+  },
+  {
+    "id": 12,
+    "name": "Mia Lewis",
+    "image": "https://www.w3schools.com/w3images/snowman.jpg",
+    "comments": 12,
+    "likes": 200,
+    "caption": "Winter wonderland ❄️",
+    "date": "2024-12-04"
+  },
+  {
+    "id": 13,
+    "name": "James Walker",
+    "image": "https://www.w3schools.com/w3images/fitness.jpg",
+    "comments": 18,
+    "likes": 225,
+    "caption": "Fitness goals for the new year 💪",
+    "date": "2024-12-03"
+  },
+  {
+    "id": 14,
+    "name": "Isabella King",
+    "image": "https://www.w3schools.com/w3images/desserts.jpg",
+    "comments": 7,
+    "likes": 95,
+    "caption": "Delicious homemade desserts 🍰",
+    "date": "2024-12-02"
+  },
+  {
+    "id": 15,
+    "name": "Benjamin Wright",
+    "image": "https://www.w3schools.com/w3images/cabin.jpg",
+    "comments": 14,
+    "likes": 175,
+    "caption": "Relaxing in a cozy cabin 🏡",
+    "date": "2024-12-01"
+  },
+  {
+    "id": 16,
+    "name": "Charlotte Green",
+    "image": "https://www.w3schools.com/w3images/garden.jpg",
+    "comments": 5,
+    "likes": 80,
+    "caption": "Beautiful flowers in my garden 🌺",
+    "date": "2024-11-30"
+  },
+  {
+    "id": 17,
+    "name": "Lucas Hall",
+    "image": "https://www.w3schools.com/w3images/gamenight.jpg",
+    "comments": 27,
+    "likes": 320,
+    "caption": "Game night with the crew 🎮",
+    "date": "2024-11-29"
+  },
+  {
+    "id": 18,
+    "name": "Amelia Adams",
+    "image": "https://www.w3schools.com/w3images/art.jpg",
+    "comments": 16,
+    "likes": 210,
+    "caption": "Trying out a new art style 🎨",
+    "date": "2024-11-28"
+  },
+  {
+    "id": 19,
+    "name": "Ethan Scott",
+    "image": "https://www.w3schools.com/w3images/stars.jpg",
+    "comments": 4,
+    "likes": 65,
+    "caption": "Late-night stargazing 🌌",
+    "date": "2024-11-27"
+  },
+  {
+    "id": 20,
+    "name": "Harper Moore",
+    "image": "https://www.w3schools.com/w3images/celebration.jpg",
+    "comments": 35,
+    "likes": 500,
+    "caption": "Celebrating achievements with a smile 😊",
+    "date": "2024-11-26"
+  }
+]
