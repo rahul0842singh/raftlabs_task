@@ -1,4 +1,3 @@
-import useAuth from "./useAuth";
 import Login from "./Login";
 
 import MainPage from "./MainPage";
