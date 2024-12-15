@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+
 
 const CreatePost: React.FC<{ userId: string }> = () => {
 
