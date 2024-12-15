@@ -18,7 +18,6 @@ interface Person {
 }
 function MainPage() {
   const location = useLocation();
-  const { userId } = location.state || {};
   const [people, setPeople] = useState<Person[]>([
     {
       name: "Ava Brown",
