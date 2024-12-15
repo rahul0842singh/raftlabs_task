@@ -1,19 +1,8 @@
-import React from "react";
+
 import { useState } from "react";
 import { useLocation } from 'react-router-dom';
 import Navbar from "./page/Navbar";
-import {
-  BriefcaseIcon,
-  CalendarIcon,
-  CheckIcon,
-  ChevronDownIcon,
-  CurrencyDollarIcon,
-  LinkIcon,
-  MapPinIcon,
-  PencilIcon,
-} from "@heroicons/react/20/solid";
-import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
-import Cards from "./page/Cards";
+
 import CardComponent from "./page/Cards";
 import Modal from "./page/Modal";
 import SideList from "./page/SideList";
