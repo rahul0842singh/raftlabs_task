@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-
-
 const FollowButton: React.FC<{ currentUserId: string; targetUserId: string }> = ({
     currentUserId,
     targetUserId,
