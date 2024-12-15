@@ -1,30 +1,33 @@
 import { useState } from "react";
 
-const FollowButton: React.FC<{ currentUserId: string; targetUserId: string }> = ({
-    currentUserId,
-    targetUserId,
-  }) => {
-    const [isFollowing, setIsFollowing] = useState(false);
-  
-    const toggleFollow = async () => {
-      if (isFollowing) {
-        await supabase
-          .from('follows')
-          .delete()
-          .eq('followerId', currentUserId)
-          .eq('followingId', targetUserId);
-      } else {
-        await supabase.from('follows').insert([{ followerId: currentUserId, followingId: targetUserId }]);
-      }
+const FollowButton: React.FC<{
+  currentUserId: string;
+  targetUserId: string;
+  onFollowToggle: (
+    currentUserId: string,
+    targetUserId: string,
+    isFollowing: boolean
+  ) => Promise<void>;
+}> = ({ currentUserId, targetUserId, onFollowToggle }) => {
+  const [isFollowing, setIsFollowing] = useState(false);
+
+  const toggleFollow = async () => {
+    try {
+      await onFollowToggle(currentUserId, targetUserId, isFollowing);
       setIsFollowing(!isFollowing);
-    };
-  
-    return (
-      <button className="bg-blue-500 text-white px-4 py-2 rounded" onClick={toggleFollow}>
-        {isFollowing ? 'Unfollow' : 'Follow'}
-      </button>
-    );
+    } catch (error) {
+      console.error("Error toggling follow status:", error);
+    }
   };
-  
-  export default FollowButton;
-  
+
+  return (
+    <button
+      className="bg-blue-500 text-white px-4 py-2 rounded"
+      onClick={toggleFollow}
+    >
+      {isFollowing ? "Unfollow" : "Follow"}
+    </button>
+  );
+};
+
+export default FollowButton;
