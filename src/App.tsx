@@ -6,15 +6,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 const App = () => {
-  const currentUser = useAuth();
-
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route  path="/" element={<Login />} />
           <Route  path="/newsfeed" element={<MainPage />} />
-     
         </Routes>
       </BrowserRouter>
 
