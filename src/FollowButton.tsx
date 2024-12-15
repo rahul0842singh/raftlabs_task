@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { supabase } from "./supabaseClient";
+
 
 
 const FollowButton: React.FC<{ currentUserId: string; targetUserId: string }> = ({
