@@ -12,7 +12,7 @@ interface Post {
 }
 
 const Cards: React.FC = () => {
-  const [posts, setPosts] = useState<Post[]>(DummyData); // All posts from DummyData
+  const [posts, ] = useState<Post[]>(DummyData); // All posts from DummyData
   const [visiblePosts, setVisiblePosts] = useState<Post[]>([]); // Visible posts to display
   const postsPerPage = 5; // Number of posts to show at a time
 
