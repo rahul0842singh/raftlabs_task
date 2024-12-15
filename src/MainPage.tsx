@@ -1,6 +1,5 @@
 
 import { useState } from "react";
-import { useLocation } from 'react-router-dom';
 import Navbar from "./page/Navbar";
 
 import CardComponent from "./page/Cards";
@@ -17,7 +16,7 @@ interface Person {
   followed: boolean;
 }
 function MainPage() {
-  const location = useLocation();
+
   const [people, setPeople] = useState<Person[]>([
     {
       name: "Ava Brown",
