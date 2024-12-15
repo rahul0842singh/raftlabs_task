@@ -4,8 +4,7 @@ import {
   DialogPanel,
   DialogTitle,
 } from "@headlessui/react";
-import { ExclamationTriangleIcon } from "@heroicons/react/24/outline";
-import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
+
 
 interface ModalProps {
   open: boolean;
